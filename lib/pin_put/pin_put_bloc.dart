@@ -103,7 +103,7 @@ class PinPutBloc {
       await checkClipboard();
       _copyFromClipboard(context);
     } else {
-      onClear(_pin.join());
+      //onClear(_pin.join());
       for (int i = 0; i < fieldsCount; ++i) {
         textCtrls[i].clear();
         _pin[i] = '';
